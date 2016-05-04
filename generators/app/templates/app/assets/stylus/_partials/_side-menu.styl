@@ -1,0 +1,47 @@
+.side-menu
+  box-sizing: border-box
+  position: fixed
+  z-index: 2
+  background-color: main-color
+  color: #fff
+  width: 300px
+  height: 100%
+  left: -310px
+  top: 0
+  overflow: hidden
+  default-transition()
+  side-box-shadow()
+  a
+    color: #fff
+  .menu-header
+    overflow: hidden
+    margin-bottom: 15px
+    background-color: _grey
+    padding: 10px
+    bottom-box-shadow()
+    .logo
+      margin: 0
+      logo-style()
+    .close
+      color: main-color
+      float: right
+      padding: 10px
+      box-sizing: border-box
+      default-transition()
+      .fa
+        margin-left: 10px
+      &:hover
+        cursor: pointer
+        background-color: darken(_grey, 20%)
+        default-border-radius()
+  .menu-body
+    padding: 10px
+    .menu-item a
+      margin: 5px 0
+      display: block
+      padding: 10px
+      default-border-radius()
+      default-transition()
+      &:hover
+        background-color: lighten(main-color, 20%)
+        padding-left: 15px

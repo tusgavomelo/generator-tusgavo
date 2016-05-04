@@ -1,0 +1,41 @@
+.header
+  default-transition()
+  display: block
+  background-color: header-bg-color
+  border-bottom: 4px solid darken(header-bg-color, 20%)
+  padding: 10px
+  box-sizing: border-box
+  height: 60px
+  width: 100%
+  position: absolute
+  top: 0
+  .logo
+    margin: 5px 0 0 15px
+    logo-style()
+  .menu-user
+    float: right
+    margin-top: 10px
+    a
+      color: main-color
+  &.fixed
+    position: fixed
+
+.menu-toggle
+  position: relative
+  float: left
+  height: 100%
+  width: 40px
+  padding: 9px 5px
+  box-sizing: border-box
+  &:hover
+    background-color: darken(header-bg-color, 20%)
+    cursor: pointer
+  .line
+    height: 4px
+    background-color: menu-toggle-color
+    margin: 5px 0
+    default-border-radius()
+    &:first-child
+      margin-top: 0
+    &:last-child
+      margin-bottom: 0

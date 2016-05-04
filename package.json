@@ -1,0 +1,14 @@
+{
+  "name": "generator-tusgavo",
+  "version": "0.1.0",
+  "description": "tusgavomelo generator for senzo projects",
+  "files": [
+    "generators/app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.20.3"
+  }
+}
