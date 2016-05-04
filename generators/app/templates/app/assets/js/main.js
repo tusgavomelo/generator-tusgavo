@@ -1,3 +1,1 @@
-import Binds from './binds';
-
-new Binds();
+// your js here

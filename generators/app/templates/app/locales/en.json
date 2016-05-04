@@ -1,9 +1,4 @@
 {
-	"hello": "teste",
-	"login": "Login",
-	"signin": "Sign-in",
-	"close": "Close",
-	"menu.home": "Home",
-	"menu.home2": "La la",
-	"menu.home3": "Le le"
+	"tusga": "Tusgavo boilerplate",
+	"welcome": "Make yourself at home."
 }

@@ -16,7 +16,7 @@ module.exports = {
         {
           'expand': true,
           'cwd': 'app/assets/stylus/pages/',
-          'src': '**/page.styl',
+          'src': '**/index.styl',
           'dest': 'dist/assets/css/pages/',
           'ext': '.css'
         }

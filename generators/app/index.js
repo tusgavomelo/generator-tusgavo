@@ -7,7 +7,7 @@ module.exports = generators.Base.extend({
       this.templatePath('**/*'),
       this.destinationRoot(),
       {
-        title: that.appname
+        appname: that.appname
       }
     );
 

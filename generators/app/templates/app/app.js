@@ -19,7 +19,6 @@ class App {
 	i18nConfig() {
 		i18n.configure({
 		  locales:['en'],
-		  // todo: arrumar esse path (perde a referencia quando os arquivos compilados estao em /dist)
 		  directory: 'app/locales',
 			api: {
 				'__': 't'
@@ -29,7 +28,8 @@ class App {
 
 	appConfig(app) {
 		app.set('view engine', 'jade');
-    app.set('views', `${__dirname}/../app/views`);
+    app.set('views', `${__dirname}/../app/views/pages`);
+		app.locals.basedir = `${__dirname}/../app/views`;
     app.use(i18n.init);
 		app.use('/assets', express.static(`${__dirname}/assets`));
 	}
